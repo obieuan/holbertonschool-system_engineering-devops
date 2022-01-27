@@ -1,17 +1,35 @@
-Files included:
+# Shell Basics
 
-0-current_working_directory -  script that prints the absolute path name of the current working directory.
-1-listit - Display the contents list of your current directory.
-2-bring_me_home - script that changes the working directory to the user’s home directory.
-3-listfiles - Display current directory contents in a long format
-4-listmorefiles - Display current directory contents, including hidden files (starting with .). Use the long format.
-5-listfilesdigitonly - Display current directory contents. (Long format, with user and group IDs displayed numerically, And hidden files (starting with .)
-6-firstdirectory - script that creates a directory named my_first_directory in the /tmp/ directory.
-7-movethatfile - Move the file betty from /tmp/ to /tmp/my_first_directory.
-8-firstdelete - Delete the file betty.
-9-firstdirdeletion - Delete the directory my_first_directory that is in the /tmp directory.
-10-back - script that changes the working directory to the previous one.
-11-lists - script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
-12-file_type -  script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
-13-symbolic_link - Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
-14-copy_html - script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+My first aproach using Shell
+
+## Files included
+
+[0-current_working_directory](https://github.com/obieuan/holberton-system_engineering-devops/blob/main/0x00-shell_basics/0-current_working_directory)
+
+[1-listit](https://github.com/obieuan/holberton-system_engineering-devops/blob/main/0x00-shell_basics/1-listit)
+
+[2-bring_me_home](https://github.com/obieuan/holberton-system_engineering-devops/blob/main/0x00-shell_basics/2-bring_me_home)
+
+[3-listfiles](https://github.com/obieuan/holberton-system_engineering-devops/blob/main/0x00-shell_basics/3-listfiles)
+
+[4-listmorefiles](https://github.com/obieuan/holberton-system_engineering-devops/blob/main/0x00-shell_basics/4-listmorefiles)
+
+[5-listfilesdigitonly](https://github.com/obieuan/holberton-system_engineering-devops/blob/main/0x00-shell_basics/5-listfilesdigitonly)
+
+[6-firstdirectory](https://github.com/obieuan/holberton-system_engineering-devops/blob/main/0x00-shell_basics/6-firstdirectory)
+
+[7-movethatfile](https://github.com/obieuan/holberton-system_engineering-devops/blob/main/0x00-shell_basics/7-movethatfile)
+
+[8-firstdelete](https://github.com/obieuan/holberton-system_engineering-devops/blob/main/0x00-shell_basics/8-firstdelete)
+
+[9-firstdirdeletion](https://github.com/obieuan/holberton-system_engineering-devops/blob/main/0x00-shell_basics/9-firstdirdeletion)
+
+[10-back](https://github.com/obieuan/holberton-system_engineering-devops/blob/main/0x00-shell_basics/10-back)
+
+[11-lists](https://github.com/obieuan/holberton-system_engineering-devops/blob/main/0x00-shell_basics/11-lists)
+
+[12-file_type](https://github.com/obieuan/holberton-system_engineering-devops/blob/main/0x00-shell_basics/12-file_type)
+
+[13-symbolic_link](https://github.com/obieuan/holberton-system_engineering-devops/blob/main/0x00-shell_basics/13-symbolic_link)
+
+[14-copy_html](https://github.com/obieuan/holberton-system_engineering-devops/blob/main/0x00-shell_basics/14-copy_html)
