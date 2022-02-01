@@ -1,2 +1,2 @@
 #!/bin/bash
-grep bin /etc/passwd | wc -l
+cut -d : -f 1,6 /etc/passwd | sort
