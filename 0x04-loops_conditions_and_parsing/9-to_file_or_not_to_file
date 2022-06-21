@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# This script gives you information about the holbertonschool file
+# This script gives you information about the school file
 
-hbs="holbertonschool"
+hbs="school"
 
 if [ -e $hbs ]
 then
