@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# list all processes
+# This script displays a list of currently running processes
 
 ps auxf
