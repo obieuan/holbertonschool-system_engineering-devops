@@ -8,11 +8,11 @@ import requests
 from sys import argv
 
 if __name__ == '__main__':
-    userid = argv[1]
+    userId = argv[1]
     user = requests.get("https://jsonplaceholder.typicode.com/users/{}".
-                        format(userid), verify=False).json()
+                        format(userId), verify=False).json()
     todo = requests.get("https://jsonplaceholder.typicode.com/todos?userId={}".
-                        format(userid), verify=False).json()
+                        format(userId), verify=False).json()
     completed_tasks = []
     for task in todo:
         if task.get('completed') is True:
