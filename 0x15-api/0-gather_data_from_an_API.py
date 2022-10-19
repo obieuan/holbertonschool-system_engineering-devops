@@ -5,6 +5,7 @@ return information about the employee's todo list progress
 """
 
 import requests
+requests.packages.urllib3.disable_warnings()
 from sys import argv
 
 if __name__ == '__main__':
